@@ -16,17 +16,18 @@
         </ul>
     </div>
 
-  <div class="section">
-        <h2>🚀 Installation</h2>
-        <p>1. Clone the Repository:</p>
-        <div class="code">
-            <code>
-                git clone https://github.com/your-username/random-password-generator.git <br>
-                cd random-password-generator
-            </code>
-        </div>
-        <p>2. Open <code>index.html</code> in Your Browser.</p>
+<div class="section">
+    <h2>🚀 Installation</h2>
+    <p>1. Clone the Repository:</p>
+    <div class="code">
+        <pre>
+git clone https://github.com/your-username/random-password-generator.git
+cd random-password-generator
+        </pre>
     </div>
+    <p>2. Open <code>index.html</code> in your browser.</p>
+</div>
+
 
   <div class="section">
         <h2>🛠️ Usage</h2>
@@ -49,22 +50,26 @@
   <div class="section">
         <h2>🔍 How It Works</h2>
         <p>This app generates a secure password using random characters from a set of uppercase letters, lowercase letters, numbers, and symbols. JavaScript’s <code>Math.random()</code> function ensures that each password generated is unique.</p>
-        <div class="code">
-            <code>
-                function createPassword(){ <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;let password = ""; <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;password += upperCase[Math.floor(Math.random() * upperCase.length)]; <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;password += lowerCase[Math.floor(Math.random() * lowerCase.length)]; <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;password += number[Math.floor(Math.random() * number.length)]; <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;password += symbol[Math.floor(Math.random() * symbol.length)]; <br><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;while(password.length &lt; 12){ <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;password += allCharc[Math.floor(Math.random() * allCharc.length)]; <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;} <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;passwordBox.value = password; <br>
-                }
-            </code>
-        </div>
-    </div>
+       
+</div>
+
+<h2>🔮 Upgradation Ideas </h2>
+
+<div class="section">
+    <h4>1.Password Length Selection</h4>
+    <p>Allow users to specify the length of the generated password (e.g., 8 to 20 characters) through a slider or input box.</p>
+</div>
+
+<div class="section">
+    <h4>2.Password Strength Indicator</h4>
+    <p>Integrate a visual indicator that assesses the strength of the generated password based on its complexity (length, variety of characters, etc.).</p>
+</div>
+
+<div class="section">
+    <h4>3.Customizable Character Set</h4>
+    <p>Let users customize the character set used for password generation (e.g., including or excluding certain characters, or adding custom symbols).</p>
+</div>
+
 
   <div class="section">
         <h2>🤝 Contributing</h2>
@@ -74,9 +79,15 @@
             <li>Submit a pull request for review.</li>
         </ol>
     </div>
-
-  <footer>
-        <p>Licensed under the MIT License</p>
-        <p>Enjoy a simple, secure, and beautiful password generation experience!</p>
-    </footer>
 </div>
+
+<h2>🤝 Connect With Me</h2>
+<p>
+  <a href="https://www.linkedin.com/in/likhithsp" target="_blank">
+    <img src="https://img.icons8.com/?size=60&id=xuvGCOXi8Wyg&format=png&color=000000" alt="LinkedIn" class="icon">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.github.com/LikhithSP" target="_blank">
+    <img src="https://img.icons8.com/?size=60&id=46565&format=png&color=000000" alt="GitHub" class="icon">
+  </a>
+</p>

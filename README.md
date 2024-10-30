@@ -5,7 +5,7 @@
   <div class="preview">
         <img src="https://i.ibb.co/LPZGBSb/image-1.png" alt="Password Generator Preview">
     </div>
-    <p align="center"><strong>Generate secure, random passwords quickly and easily with this aesthetically pleasing web-based password generator</strong></p>
+    <p align="center"><strong>Generate secure, random passwords quickly and easily with this aesthetically pleasing web-based password generator. it’s perfect tool for keeping your accounts safe!</strong></p>
 
   <div class="section">
         <h2>✨ Features</h2>

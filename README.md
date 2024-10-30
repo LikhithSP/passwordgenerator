@@ -56,18 +56,9 @@ cd random-password-generator
 <h2>🔮 Upgradation Ideas </h2>
 
 <div class="section">
-    <h4>1.Password Length Selection</h4>
-    <p>Allow users to specify the length of the generated password (e.g., 8 to 20 characters) through a slider or input box.</p>
-</div>
-
-<div class="section">
-    <h4>2.Password Strength Indicator</h4>
-    <p>Integrate a visual indicator that assesses the strength of the generated password based on its complexity (length, variety of characters, etc.).</p>
-</div>
-
-<div class="section">
-    <h4>3.Customizable Character Set</h4>
-    <p>Let users customize the character set used for password generation (e.g., including or excluding certain characters, or adding custom symbols).</p>
+    <li>Password Length Selection</li>
+    <li>Password Strength Indicator</li>
+    <li>Customizable Character Set</li>
 </div>
 
 
